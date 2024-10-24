@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scriptlet</title>
+  <link rel="stylesheet" href="final.css">
+  <style>
+    /* Logo heading styles */
+    .logo-heading {
+      position: relative; /* create a containing block */
+    }
+
+    .logo-heading img {
+      display: block; /* make the image a block element */
+      /* margin: 0 auto; /* center the image horizontally */
+    }
+
+    .logo-heading span {
+      position: absolute; /* take the span out of the flow */
+      top: 50%; /* position the span at 50% of the image height */
+      left: 50%; /* position the span at 50% of the image width */
+      transform: translate(-50%, -50%); /* center the span relative to the image */
+      text-align: center; /* center the heading text */
+    }
+
+    /* Indented paragraph styles */
+    .indented-paragraph {
+      /* add styles for indented paragraphs here */
+    }
+	a:link {
+  		color: #1bff0b;
+  		background-color: transparent;
+  		text-decoration: underline;
+	}
+  </style>
+  <a id="section-id"></a>
+</head>
+<body class="main">
+  <!-- Header section -->
+  
+<header>
+  <div class="logo-heading">
+    <h1>
+      <img src="logo.png" alt="Logo" id="logo" >
+      <span>Scriptlet</span>
+    </h1>
+  </div>
+</header>
+
+<!-- Anchor element for "go to top" link -->
+
+
+<!-- Main content section -->
+<main>
+
+    <!-- Paragraph 1: centered with external link -->
+    <p align="center">
+      We're a specialized scripting service that helps businesses and developers streamline their workflows by providing high-quality, custom scripts for a wide range of applications. Our goal is to save you time and resources by offering a flexible, à la carte scripting solution that meets your specific needs. Whether you're looking to automate tasks, integrate APIs, or build custom tools, we've got you covered.
+    </p>
+
+    <!-- Paragraph 2: indented on both sides with internal link -->
+    <p style="margin-left: 20px;">
+      We're a small, independent operation with a <a href="about_me.html">single developer</a> working behind the scenes to bring you high-quality scripts. As a solo operation, I'm able to keep costs low and focus on delivering personalized service to each client. Currently, there are no job openings available, but I'm always open to collaborating with other developers on a project-by-project basis. As for our working environment, we're a remote-friendly operation, which means I can work with clients from all over the world and deliver scripts quickly and efficiently. This setup also allows me to keep costs low and pass the savings on to you.
+    </p>
+
+    <!-- Picture heading and images -->
+    <h2 align="center">_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_<span class="itext">_</span>_</h2>
+    <p align="center">
+      <img src="photo1.png" alt="Photo 1">
+      <span class="itext">||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</span>
+      <img src="photo2.png" alt="Photo 2">
+    </p>
+
+    <!-- Animated GIF -->
+    <p align="center">
+      <img src="animated.gif" alt="Animated GIF">
+    </p>
+
+    <!-- E-mail link -->
+    <p align="center">
+      contact me at <a href="mailto:redhering@iclud.com">redhering@iclud.com</a>
+    </p>
+
+   
+  </main>
+
+  
+ <!-- Internal link to top -->
+<p align="center">
+  <a href="#section-id">go to top</a>
+</p>
+<!-- Button and paragraph for JavaScript interaction -->
+  <button id="myButton">Click me!</button>
+  <p id="myParagraph"></p>
+<script>
+  document.getElementById("go-to-top-btn").addEventListener("click", function() {
+    window.location.href = "#section-id";
+  });
+</script>
+  <!-- JavaScript file -->
+  <script src="signiture.js"></script>
+</body>
+</html>

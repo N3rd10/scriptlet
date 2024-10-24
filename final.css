@@ -1,0 +1,24 @@
+:root{
+	--textcolor: #1bff0b;
+	--background: black;
+}
+
+.main {
+  color: var(--textcolor);
+  background-color: var(--background);
+}
+.itext{
+	color: var(--background);	
+}
+a:link {
+  color: -textcolor;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: -textcolor;
+  background-color: transparent;
+  text-decoration: none;
+}
+
